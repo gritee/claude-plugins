@@ -1,0 +1,21 @@
+{
+  "name": "gritee",
+  "owner": {
+    "name": "Gritee"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Gritee"
+  },
+  "plugins": [
+    {
+      "name": "session-recall",
+      "source": {
+        "source": "github",
+        "repo": "Gritee/session-recall"
+      },
+      "description": "Turn a jam session into a recap, quiz and references, saved as JSON + Obsidian notes, with an HTML quiz runner.",
+      "category": "learning",
+      "keywords": ["learning", "quiz", "obsidian", "recap"]
+    }
+  ]
+}
