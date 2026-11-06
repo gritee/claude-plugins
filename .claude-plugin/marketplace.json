@@ -10,12 +10,17 @@
     {
       "name": "session-recall",
       "source": {
-        "source": "github",
-        "repo": "Gritee/session-recall"
+        "source": "url",
+        "url": "https://github.com/Gritee/session-recall.git"
       },
       "description": "Turn a jam session into a recap, quiz and references, saved as JSON + Obsidian notes, with an HTML quiz runner.",
       "category": "learning",
-      "keywords": ["learning", "quiz", "obsidian", "recap"]
+      "keywords": [
+        "learning",
+        "quiz",
+        "obsidian",
+        "recap"
+      ]
     }
   ]
 }

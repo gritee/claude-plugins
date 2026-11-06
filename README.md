@@ -6,7 +6,7 @@ only holds the catalog ([.claude-plugin/marketplace.json](.claude-plugin/marketp
 ## Use
 
 ```
-/plugin marketplace add Gritee/claude-plugins
+/plugin marketplace add https://github.com/Gritee/claude-plugins.git
 /plugin install session-recall@gritee
 ```
 
@@ -22,5 +22,5 @@ Update later with `/plugin marketplace update gritee`.
 
 1. Give the plugin repo a `.claude-plugin/plugin.json`.
 2. Add an entry to `plugins` in `marketplace.json` with
-   `"source": { "source": "github", "repo": "Gritee/<repo>" }`.
+   `"source": { "source": "url", "url": "https://github.com/Gritee/<repo>.git" }`.
 3. Add a row to the table above.
