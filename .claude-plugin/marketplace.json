@@ -21,6 +21,21 @@
         "obsidian",
         "recap"
       ]
+    },
+    {
+      "name": "git-contributions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Gritee/identifying-your-significant-git-contributions.git"
+      },
+      "description": "Rank one author's commits in a git repository to find their most significant contributions, and optionally write them up as STAR stories.",
+      "category": "productivity",
+      "keywords": [
+        "git",
+        "career",
+        "performance-review",
+        "star"
+      ]
     }
   ]
 }

@@ -8,6 +8,7 @@ only holds the catalog ([.claude-plugin/marketplace.json](.claude-plugin/marketp
 ```
 /plugin marketplace add https://github.com/Gritee/claude-plugins.git
 /plugin install session-recall@gritee
+/plugin install git-contributions@gritee
 ```
 
 Update later with `/plugin marketplace update gritee`.
@@ -17,6 +18,7 @@ Update later with `/plugin marketplace update gritee`.
 | Plugin | What it does |
 | --- | --- |
 | [session-recall](https://github.com/Gritee/session-recall) | Turn a jam session into a recap, quiz and references, saved as JSON + Obsidian notes, with an HTML quiz runner. |
+| [git-contributions](https://github.com/Gritee/identifying-your-significant-git-contributions) | Rank one author's commits in a git repository to find their most significant contributions, and optionally write them up as STAR stories. |
 
 ## Adding a plugin
 
